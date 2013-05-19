@@ -116,10 +116,10 @@
 		9EA5D16C17491A9400FB09AB /* NSDate+PrettyDate */ = {
 			isa = PBXGroup;
 			children = (
-				9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */,
-				9EA5D19E17491AB800FB09AB /* NSDate+PrettyDate.h */,
 				9EA5D17517491A9400FB09AB /* AppDelegate.h */,
 				9EA5D17617491A9400FB09AB /* AppDelegate.m */,
+				9EA5D19E17491AB800FB09AB /* NSDate+PrettyDate.h */,
+				9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */,
 				9EA5D16D17491A9400FB09AB /* Supporting Files */,
 			);
 			path = "NSDate+PrettyDate";
