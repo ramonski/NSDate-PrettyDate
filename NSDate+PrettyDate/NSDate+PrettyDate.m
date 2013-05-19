@@ -37,6 +37,7 @@
         return [NSString stringWithFormat:NSLocalizedString(@"%d hours ago", nil), comps.hour];
     } else if (comps.minute > 0) {
         // HANDLE MINUTES
+        if (comps.minute == 1) return NSLocalizedString(@"a minute ago", nil);
         return [NSString stringWithFormat:NSLocalizedString(@"%d minutes ago", nil), comps.minute];
     } else if (comps.second < 30) {
         // HANDLE SECONDS
