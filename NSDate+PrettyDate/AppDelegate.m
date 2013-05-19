@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PrettyDateViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    PrettyDateViewController *pdvc = [[PrettyDateViewController alloc] init];
+    self.window.rootViewController = pdvc;
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
