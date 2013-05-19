@@ -23,6 +23,8 @@
 		9EA5D19217491A9400FB09AB /* NSDate_PrettyDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5D19117491A9400FB09AB /* NSDate_PrettyDateTests.m */; };
 		9EA5D19C17491AAD00FB09AB /* NSDate+PrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */; };
 		9EA5D19D17491AAD00FB09AB /* NSDate+PrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */; };
+		9EA5D1A317491DF300FB09AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA5D1A517491DF300FB09AB /* Localizable.strings */; };
+		9EA5D1A717491FCD00FB09AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA5D1A517491DF300FB09AB /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		9EA5D19117491A9400FB09AB /* NSDate_PrettyDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_PrettyDateTests.m; sourceTree = "<group>"; };
 		9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PrettyDate.m"; sourceTree = "<group>"; };
 		9EA5D19E17491AB800FB09AB /* NSDate+PrettyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PrettyDate.h"; sourceTree = "<group>"; };
+		9EA5D19F17491D4F00FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EA5D1A017491D4F00FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EA5D1A417491DF300FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +133,7 @@
 		9EA5D16D17491A9400FB09AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EA5D1A517491DF300FB09AB /* Localizable.strings */,
 				9EA5D16E17491A9400FB09AB /* NSDate+PrettyDate-Info.plist */,
 				9EA5D16F17491A9400FB09AB /* InfoPlist.strings */,
 				9EA5D17217491A9400FB09AB /* main.m */,
@@ -212,6 +218,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 9EA5D15A17491A9400FB09AB;
 			productRefGroup = 9EA5D16417491A9400FB09AB /* Products */;
@@ -233,6 +240,7 @@
 				9EA5D17917491A9400FB09AB /* Default.png in Resources */,
 				9EA5D17B17491A9400FB09AB /* Default@2x.png in Resources */,
 				9EA5D17D17491A9400FB09AB /* Default-568h@2x.png in Resources */,
+				9EA5D1A317491DF300FB09AB /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EA5D18F17491A9400FB09AB /* InfoPlist.strings in Resources */,
+				9EA5D1A717491FCD00FB09AB /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +306,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9EA5D17017491A9400FB09AB /* en */,
+				9EA5D19F17491D4F00FB09AB /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -305,8 +315,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				9EA5D18E17491A9400FB09AB /* en */,
+				9EA5D1A017491D4F00FB09AB /* de */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EA5D1A517491DF300FB09AB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA5D1A417491DF300FB09AB /* de */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

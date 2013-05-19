@@ -17,32 +17,32 @@
 
     if (comps.year > 0) {
         // HANDLE YEARS
-        if (comps.year == 1) return @"last year";
-        return [NSString stringWithFormat:@"%d years ago", comps.year];
+        if (comps.year == 1) return NSLocalizedString(@"last year", nil);
+        return [NSString stringWithFormat:NSLocalizedString(@"%d years ago", nil), comps.year];
     } else if (comps.month > 0) {
         // HANDLE MONTHS
-        if (comps.month == 1) return @"last month";
-        return [NSString stringWithFormat:@"%d months ago", comps.month];
+        if (comps.month == 1) return NSLocalizedString(@"last month", nil);
+        return [NSString stringWithFormat:NSLocalizedString(@"%d months ago", nil), comps.month];
     } else if (comps.week > 0) {
         // HANDLE WEEKS
-        if (comps.week == 1) return @"last week";
-        return [NSString stringWithFormat:@"%d weeks ago", comps.week];
+        if (comps.week == 1) return NSLocalizedString(@"last week", nil);
+        return [NSString stringWithFormat:NSLocalizedString(@"%d weeks ago", nil), comps.week];
     } else if (comps.day > 0) {
         // HANDLE DAYS
-        if (comps.day == 1) return @"yesterday";
-        return [NSString stringWithFormat:@"%d days ago", comps.day];
+        if (comps.day == 1) return NSLocalizedString(@"yesterday", nil);
+        return [NSString stringWithFormat:NSLocalizedString(@"%d days ago", nil), comps.day];
     } else if (comps.hour > 0) {
         // HANDLE HOURS
-        if (comps.hour == 1) return @"last hour";
-        return [NSString stringWithFormat:@"%d hours ago", comps.hour];
+        if (comps.hour == 1) return NSLocalizedString(@"last hour", nil);
+        return [NSString stringWithFormat:NSLocalizedString(@"%d hours ago", nil), comps.hour];
     } else if (comps.minute > 0) {
         // HANDLE MINUTES
-        return [NSString stringWithFormat:@"%d minutes ago", comps.minute];
+        return [NSString stringWithFormat:NSLocalizedString(@"%d minutes ago", nil), comps.minute];
     } else if (comps.second < 30) {
         // HANDLE SECONDS
-        return @"just now";
+        return NSLocalizedString(@"just now", nil);
     }
-    return [NSString stringWithFormat:@"%d seconds ago", comps.second];
+    return [NSString stringWithFormat:NSLocalizedString(@"%d seconds ago", nil), comps.second];
 }
 
 - (NSDateComponents *)getDateComponents

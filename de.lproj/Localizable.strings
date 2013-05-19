@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  NSDate+PrettyDate
+
+  Created by Ramon Bartl on 19.05.13.
+  Copyright (c) 2013 Ramon Bartl. All rights reserved.
+*/
+
+"just now"       = "in diesem Moment"
+"last hour"      = "letzte Stunde"
+"yesterday"      = "gestern"
+"last week"      = "letzte Woche"
+"last month"     = "letzten Monat"
+"last year"      = "letztes Jahr"
+
+"%d seconds ago" = "vor %d Sekunden"
+"%d minutes ago" = "vor %d Minuten"
+"%d hours ago"   = "vor %d Stunden"
+"%d days ago"    = "Vor %d Tagen"
+"%d weeks ago"   = "vor %d Wochen"
+"%d months ago"  = "vor %d Monaten"
+"%d years ago"   = "vor %d Jahren"
