@@ -21,6 +21,8 @@
 		9EA5D18717491A9400FB09AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA5D16817491A9400FB09AB /* Foundation.framework */; };
 		9EA5D18F17491A9400FB09AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA5D18D17491A9400FB09AB /* InfoPlist.strings */; };
 		9EA5D19217491A9400FB09AB /* NSDate_PrettyDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5D19117491A9400FB09AB /* NSDate_PrettyDateTests.m */; };
+		9EA5D19C17491AAD00FB09AB /* NSDate+PrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */; };
+		9EA5D19D17491AAD00FB09AB /* NSDate+PrettyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9EA5D18E17491A9400FB09AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EA5D19017491A9400FB09AB /* NSDate_PrettyDateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDate_PrettyDateTests.h; sourceTree = "<group>"; };
 		9EA5D19117491A9400FB09AB /* NSDate_PrettyDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_PrettyDateTests.m; sourceTree = "<group>"; };
+		9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PrettyDate.m"; sourceTree = "<group>"; };
+		9EA5D19E17491AB800FB09AB /* NSDate+PrettyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PrettyDate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		9EA5D16C17491A9400FB09AB /* NSDate+PrettyDate */ = {
 			isa = PBXGroup;
 			children = (
+				9EA5D19B17491AAD00FB09AB /* NSDate+PrettyDate.m */,
+				9EA5D19E17491AB800FB09AB /* NSDate+PrettyDate.h */,
 				9EA5D17517491A9400FB09AB /* AppDelegate.h */,
 				9EA5D17617491A9400FB09AB /* AppDelegate.m */,
 				9EA5D16D17491A9400FB09AB /* Supporting Files */,
@@ -263,6 +269,7 @@
 			files = (
 				9EA5D17317491A9400FB09AB /* main.m in Sources */,
 				9EA5D17717491A9400FB09AB /* AppDelegate.m in Sources */,
+				9EA5D19C17491AAD00FB09AB /* NSDate+PrettyDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EA5D19217491A9400FB09AB /* NSDate_PrettyDateTests.m in Sources */,
+				9EA5D19D17491AAD00FB09AB /* NSDate+PrettyDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
