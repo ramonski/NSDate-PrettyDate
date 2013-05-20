@@ -60,13 +60,7 @@ Demo
 ----
 
 .. image:: demo_images/just_now.png
-    :alt: just now
-    :align: left
 
 .. image:: demo_images/last_hour.png
-    :alt: just now
-    :align: right
 
 .. image:: demo_images/yesterday.png
-    :alt: just now
-    :align: left
