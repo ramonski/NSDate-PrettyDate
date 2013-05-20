@@ -1,10 +1,10 @@
-NSDate-PrettyDate
+NSDate+PrettyDate
 =================
 
-An Objective-C category to calculate relative time spans between an `NSDate`
-object and today.
+An Objective-C category to calculate relative time spans between an **NSDate**
+object and **today**.
 
-The result is simmilar to the commit times of GitHub, e.g. `2 hours ago`.
+The result is simmilar to the commit times of GitHub, e.g. **2 hours ago**.
 
 Example
 -------
