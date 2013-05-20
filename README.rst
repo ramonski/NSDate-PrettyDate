@@ -59,8 +59,8 @@ To localize the resulting strings, do the following steps:
 Demo
 ----
 
-.. image:: demo_images/just_now.png
+.. image:: demo_images/just_now.jpg
 
-.. image:: demo_images/last_hour.png
+.. image:: demo_images/last_hour.jpg
 
-.. image:: demo_images/yesterday.png
+.. image:: demo_images/yesterday.jpg
