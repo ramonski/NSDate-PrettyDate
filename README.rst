@@ -65,7 +65,7 @@ Demo
 
 .. image:: demo_images/last_hour.png
     :alt: just now
-    :align: left
+    :align: right
 
 .. image:: demo_images/yesterday.png
     :alt: just now
