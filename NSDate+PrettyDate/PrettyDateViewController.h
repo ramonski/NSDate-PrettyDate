@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface PrettyDateViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UITextField *fromDate;
 @property (weak, nonatomic) IBOutlet UILabel *prettyDate;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *styleSelector;
 
 @end
