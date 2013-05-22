@@ -24,7 +24,7 @@ ViewController.m::
     {
         [super viewDidLoad];
 
-        NSDate *date = [NSDate dateWithTimeIntervalSinceNow:-3600];
+        NSDate *date = [NSDate dateWithTimeIntervalSinceNow:-3615];
 
         self.label.text = [date prettyDate]; // results "1 hour ago"
         //self.label.text = [date prettyDate2]; // results "1 hour ago and 15 seconds ago"
