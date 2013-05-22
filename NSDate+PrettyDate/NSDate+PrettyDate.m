@@ -105,11 +105,6 @@
     return [NSString stringWithFormat:NSLocalizedString(@"%d seconds ago ...", nil), comps.second];
 }
 
-- (NSString *)makePrettyDate:(NSString *)template components:(NSArray *)comps
-{
-    return [NSString localizedStringWithFormat:template, [comps objectEnumerator]];
-}
-
 - (NSDateComponents *)getDateComponents
 {
     NSCalendar *sysCalendar = [NSCalendar currentCalendar];
