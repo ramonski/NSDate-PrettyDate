@@ -11,5 +11,6 @@
 @interface NSDate (PrettyDate)
 
 - (NSString *)prettyDate;
+- (NSString *)prettyDate2;
 
 @end

@@ -6,6 +6,8 @@
   Copyright (c) 2013 Ramon Bartl. All rights reserved.
 */
 
+
+// PrettyDate
 "just now"       = "in diesem Moment";
 "a minute ago"   = "vor einer Minute";
 "last hour"      = "letzte Stunde";
@@ -21,3 +23,25 @@
 "%d weeks ago"   = "vor %d Wochen";
 "%d months ago"  = "vor %d Monaten";
 "%d years ago"   = "vor %d Jahren";
+
+// PrettyDate2
+"%d seconds ago ..."            = "vor %d Sekunden ...";
+"a few seconds ago"             = "vor ein paar Sekunden";
+
+"%d minutes and %d seconds ago" = "vor %d Minuten und %d Sekunden";
+"one minute and %d seconds ago" = "vor einer Minute und %d Sekunden";
+
+"%d hours and %d minutes ago"   = "vor %d Stunden und %d Minuten";
+"one hour and %d minutes ago"   = "vor einer Stunde und %d Minuten";
+
+"%d days and %d hours ago"      = "vor %d Tagen und %d Stunden";
+"one day and %d hours ago"      = "vor einem Tag und %d Stunden";
+
+"%d weeks and %d days ago"      = "vor %d Wochen und %d Tagen";
+"one week and %d days ago"      = "vor einer Woche und %d Tagen";
+
+"%d months and %d days ago"     = "vor %d Monaten und %d Tagen";
+"one month and %d days ago"     = "vor einem Monat und %d Tagen";
+
+"%d years and %d months ago"    = "vor %d Jahren und %d Monaten";
+"one year and %d months ago"    = "vor einem Jahr und %d Monaten";

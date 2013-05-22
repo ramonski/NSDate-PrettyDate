@@ -60,7 +60,7 @@
         self.prettyDate.text = [date prettyDate];
     } else {
         NSLog(@"Render PrettyDate with extended style");
-        self.prettyDate.text = [date prettyDate];
+        self.prettyDate.text = [date prettyDate2];
     }
 }
 
@@ -68,7 +68,7 @@
 {
     self.fromDate.text = [[datePicker date] description];
     date = [datePicker date];
-    self.prettyDate.text = [date prettyDate];
+    [self render];
 }
 
 - (void)done:(id)sender{
