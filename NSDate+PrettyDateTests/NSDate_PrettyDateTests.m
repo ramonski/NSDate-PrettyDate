@@ -25,6 +25,13 @@
     [super tearDown];
 }
 
+- (void)testPrettyDateFuture {
+    NSDate *date = [NSDate dateWithTimeIntervalSinceNow:5];
+    result = [date prettyDate];
+    expects = @"future date";
+    STAssertTrue([result isEqualToString:expects], [NSString stringWithFormat:@"Expected '%@' got '%@'", expects, result]);
+}
+
 - (void)testPrettyDateJustNow
 {
     NSDate *date = [NSDate date];
