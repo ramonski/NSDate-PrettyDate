@@ -52,7 +52,7 @@
 {
     NSDate *date = [NSDate dateWithTimeIntervalSinceNow:-60];
     result = [date prettyDate];
-    expects = @"1 minutes ago";
+    expects = @"a minute ago";
     STAssertTrue([result isEqualToString:expects], [NSString stringWithFormat:@"Expected '%@' got '%@'", expects, result]);
 }
 

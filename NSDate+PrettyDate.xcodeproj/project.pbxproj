@@ -63,7 +63,7 @@
 		9EA5D19E17491AB800FB09AB /* NSDate+PrettyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PrettyDate.h"; sourceTree = "<group>"; };
 		9EA5D19F17491D4F00FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EA5D1A017491D4F00FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9EA5D1A417491DF300FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9EA5D1A417491DF300FB09AB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9EA5D1A917492B8400FB09AB /* PrettyDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyDateViewController.h; sourceTree = "<group>"; };
 		9EA5D1AA17492B8400FB09AB /* PrettyDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyDateViewController.m; sourceTree = "<group>"; };
 		9EA5D1AB17492B8400FB09AB /* PrettyDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrettyDateViewController.xib; sourceTree = "<group>"; };
@@ -378,6 +378,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -402,6 +403,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -481,6 +483,7 @@
 				9EA5D19717491A9400FB09AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EA5D19817491A9400FB09AB /* Build configuration list for PBXNativeTarget "NSDate+PrettyDateTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +492,7 @@
 				9EA5D19A17491A9400FB09AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
