@@ -46,6 +46,7 @@ To localize the resulting strings, do the following steps:
 #. Add the following contents::
 
     // PrettyDate
+    "future date"    = "zukünftiges Datum";
     "just now"       = "in diesem Moment";
     "a minute ago"   = "vor einer Minute";
     "last hour"      = "letzte Stunde";
@@ -103,6 +104,12 @@ Demo Style 2
 .. image:: demo_images/style2_en.jpg
 
 .. image:: demo_images/style2_ger.jpg
+
+Changelog
+---------
+
+- https://github.com/ramonski/NSDate-PrettyDate/pull/1: Input: some date in future, output: "just now"
+    Handle future dates correctly. Thanks to nrgbodya
 
 License
 -------
