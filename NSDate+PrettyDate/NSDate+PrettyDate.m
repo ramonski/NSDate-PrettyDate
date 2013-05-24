@@ -41,7 +41,7 @@
         return [NSString stringWithFormat:NSLocalizedString(@"%d minutes ago", nil), comps.minute];
     } else if (comps.second < 30) {
         // HANDLE SECONDS
-        return NSLocalizedString(@"just now", nil);
+        return comps.second < 0 ? NSLocalizedString(@"future date", nil) : NSLocalizedString(@"just now", nil);
     }
     return [NSString stringWithFormat:NSLocalizedString(@"%d seconds ago", nil), comps.second];
 }
@@ -100,7 +100,7 @@
                 NSLocalizedString(@"%d minutes and %d seconds ago", nil), comps.minute, comps.second];
     } else if (comps.second < 30) {
         // HANDLE SECONDS
-        return NSLocalizedString(@"a few seconds ago", nil);
+        return comps.second < 0 ? NSLocalizedString(@"future date", nil) : NSLocalizedString(@"a few seconds ago", nil);
     }
     return [NSString stringWithFormat:NSLocalizedString(@"%d seconds ago ...", nil), comps.second];
 }
