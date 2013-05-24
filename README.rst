@@ -105,13 +105,17 @@ Demo Style 2
 
 .. image:: demo_images/style2_ger.jpg
 
-Changelog
----------
-
-- https://github.com/ramonski/NSDate-PrettyDate/pull/1: Input: some date in future, output: "just now"
-    Handle future dates correctly. Thanks to nrgbodya
-
 License
 -------
 
 MIT. do what you want.
+
+Changelog
+---------
+
+0.1 - 2013-05-24
+~~~~~~~~~~~~~~~~
+
+    - https://github.com/ramonski/NSDate-PrettyDate/pull/1: Input: some date in future, output: "just now"
+        Handle future dates correctly. Thanks to nrgbodya
+    - fixed unittests and documentation
